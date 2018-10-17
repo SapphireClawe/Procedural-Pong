@@ -9,8 +9,15 @@ int [] paddle = {0, 0};
 int [] player = new int [4];
 void setup() {
   size (700, 800);
+  screenSizeChecker ();
+  gameStart();
 }
 
 void draw() {
+   startStop ();
    
+   if (start == true) {
+     playGame();
+     score();
+   }
 }
