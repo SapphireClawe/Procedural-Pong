@@ -15,5 +15,5 @@ void gameStart() {
   player[2] = width*(section-1)/section;
   player[3] = height/2;
   
-ballRandom();
+  ballRandom();
 }

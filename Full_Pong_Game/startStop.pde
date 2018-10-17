@@ -4,7 +4,7 @@ void startStop() {
       start = true;
     }
   }
-  
+
   if (keyPressed) {
     if (key == 'q' || key == 'Q') {
       println ("The canvas has exited.");
