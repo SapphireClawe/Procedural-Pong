@@ -16,8 +16,7 @@ void score() {
 
 
   textSize(0.1*width);
-  text("Player 1:\n" + score[0], (width*1/5)-(0.1*width), height*1/5);
-  text("Player 2:\n" + score[1], (width*1/5)-(0.2*width), height*1/5);
-  text(score[1], width*4/5, height*1/5);
+  text("Player 1:" + score[0], (width*1/10)-(0.1*width), height*1/5);
+  text("Player 2:" + score[1], (width*1/10)-(0.1*width), height*3/10);
   println ("Score Board is: " + score[0] + " Player-1" + "     " + score[1] + " Player-2");
 }

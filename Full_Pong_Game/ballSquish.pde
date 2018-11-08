@@ -1,3 +1,1 @@
-void ballSquish () {
-  
-}
+void ballSquish () {}

@@ -17,7 +17,6 @@ void playGame() {
 
   ballSquish();
 
-
   if (keyPressed == true & key == CODED) {
     if (keyCode == UP) {
       if (player[1] >= 5) {
@@ -52,9 +51,7 @@ void playGame() {
   fill(#FF00FF);
   rect(player[0], player[1], paddle[0], paddle[1]);
   rect(player[2], player[3], paddle[0], paddle[1]);
-}
-
-{
+  
   fill(0);
   ellipse(ballX, ballY, ballDiameter, ballDiameter);
 }
